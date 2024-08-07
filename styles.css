@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+    font-family: Lexend Deca, sans-serif; /* Use the primary font */
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 95%); /* Very light gray */
+}
+
+
+.car-options {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 95%); /* Very light gray */
+    padding: 20px;
+    height: 500px; 
+}
+
+.car-option {
+    flex: 1;
+    background-color: #fff; /* White */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.car-option h2 {
+    font-size: 20px;
+    font-family: Big Shoulders Display, serif;
+    margin-bottom: 10px;
+    color: hsl(184, 100%, 22%); /* Dark cyan */
+}
+
+.car-option p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.car-option button {
+    background-color:hsl(0, 0%, 95%); /* Bright orange */
+    color: hsl(31, 77%, 52%); /* White */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.sedan{
+background-color: rgb(229, 175, 40);
+}
+.suv{
+    background-color: rgb(50, 148, 148);
+}
+.luxury{
+    background-color: rgb(20, 87, 87);
+
+}
+/* Media Queries for Responsiveness (optional) */
+
+@media (max-width: 768px) {
+    .car-option {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .car-option {
+        width: calc(100% - 20px);
+        
+    }
+}
