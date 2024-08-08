@@ -17,7 +17,7 @@ body {
     padding: 20px;
     text-align: left;
     margin: 20px 10px 20px;
-
+    font-size: min(7rem,2vh);
 }
 .car-options {
     display: flex;
@@ -43,16 +43,16 @@ body {
 }
 
 .car-option p {
-    font-size: 1rem;    
     margin: 30px 10px 30px;
 }
 
 .car-option button {
     position: absolute;
     bottom: 30px;
-    background-color: transparent;
+    background-color: whitesmoke;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #f6b709;
+
     border: 2px solid white;
     border-radius: 50px;
     padding: 10px 20px;
@@ -61,6 +61,8 @@ body {
 
 }
 .car-option button:hover {
+    background-color: transparent;
+    background-repeat: no-repeat;
     color: hsl(32, 74%, 68%);
 
 }
